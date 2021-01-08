@@ -28,7 +28,9 @@
         "prettier"
     ],
     "rules": {
-      "prettier/prettier": "error",
+      "prettier/prettier": ["error", {
+       "endOfLine":"auto"
+     }],
       "react/jsx-props-no-spreading": "off",
       "no-unused-expressions": "off",
       "react/prop-types": "off",
